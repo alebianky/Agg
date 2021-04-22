@@ -56,14 +56,7 @@ namespace Agenda
                 int edad = int.Parse(Console.ReadLine());
 
 
-               /* if (nombre.Length < 1)
-                    nombre = "Error sin_nombre";
-                else pnombre = nombre;
-                //pedir el apellido y validarlo
-                Console.WriteLine("ingrese el apellido");
-                apellido = (Console.ReadLine());
-                if (apellido.Length < 1)
-               */
+            
             }
 
 
@@ -73,9 +66,9 @@ namespace Agenda
                 // una instancia de Contacto
                 List<Contacto> persona = new List<Contacto> { nombre= "ale", apellido ="castel"};
                 //  Accedo a una variable publica externa
-                persona.nombre = "Juan";
+                persona.nombre= "Juan";
                 
-                persona.presentarme("juan");
+                persona.presentarme("juan");  
               //    List<Contacto> persona = new List<Contacto>();
 
             string path = @"d:\\Agenda\Agenda.txt";
