@@ -8,7 +8,7 @@ namespace Agenda
 {
 
 
-    class Contacto
+    class Contacto: List<Contacto>
     {
 
         // array.select 
